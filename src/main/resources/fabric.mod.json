@@ -1,37 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "pisa",
+  "id": "progressive-speedup-ce",
   "version": "${version}",
-
-  "name": "Progressive Item Speedup Addon",
-  "description": "Speeds up the world when knitting and doing similar things.",
+  "name": "Progressive Speedup CE",
+  "description": "Speeds up the world when using progressive crafting items. The longer you craft, the faster time moves. Features smooth FOV zoom-out effect when speed increases.\n\nPort for BTW CE 3.0.0. Based on the original mod by Arminias: https://github.com/BTW-Community/Progressive-Item-Speedup-Addon",
   "authors": [
-    "Arminias"
+    "chronicboy"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/chronicboy/progressive-speedup-ce",
+    "sources": "https://github.com/chronicboy/progressive-speedup-ce"
   },
-
-  "license": "MIT",
-  "icon": "assets/modid/icon.png",
-
+  "license": "CC0-1.0",
+  "icon": "assets/progressive-speedup-ce/icon.png",
   "environment": "*",
   "entrypoints": {
-    "init": [
-    ],
     "btw:addon": [
       "btw.community.arminias.PisaAddon"
     ]
   },
   "mixins": [
-    "pisa.mixins.json"
+    "progressive-speedup-ce.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.7.4"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.6.4"
   }
 }

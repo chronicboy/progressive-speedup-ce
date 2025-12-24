@@ -4,13 +4,10 @@
   "package": "btw.community.arminias.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "EntityPlayerMixin",
-    "ProgressiveCraftingItemMixin",
-    "ProgressiveItemSubclassMixin"
+    "EntityPlayerMixin"
   ],
   "client": [
-    "EntityPlayerSPMixin",
-    "GuiIngameMixin"
+    "EntityPlayerSPMixin"
   ],
   "injectors": {
     "defaultRequire": 1

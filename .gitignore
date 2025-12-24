@@ -22,6 +22,18 @@ bin/
 
 # fabric
 run/
+build_BTW/
+custom_mappings/
 
 # macos
 *.DS_Store
+
+# windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# temp files
+*.tmp
+*.temp
+*.log
